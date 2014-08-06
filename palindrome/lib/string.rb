@@ -1,5 +1,5 @@
 class String
-  def check_for_palindrome?
+  def palindrome?
     downcase == downcase.reverse
   end
 end
